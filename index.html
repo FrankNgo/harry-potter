@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Hogwarts House Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron" id="size">
+        <h1>Sorting Hat Challenge</h1>
+      </div>
+      <form id="sortinghat">
+        <label for="question1">What do you value most?</label>
+        <select class="form-control" id="question1">
+          <option>Select</option>
+          <option>Loyalty</option>
+          <option>Success</option>
+          <option>Knowledge</option>
+          <option>Bravery</option>
+        </select>
+        <label for="question2">What do you fear?</label>
+        <select class="form-control" id="question2">
+          <option>Select</option>
+          <option>Failure</option>
+          <option>Letting People Down</option>
+          <option>Ignorance</option>
+          <option>Complacency</option>
+        </select>
+        <label for="question3">What pet would you own?</label>
+        <select class="form-control" id="question3">
+          <option>Select</option>
+          <option>Owl</option>
+          <option>Toad</option>
+          <option>Cat</option>
+          <option>Rat</option>
+        </select>
+        <label for="question4">What subject is most interesting?</label>
+        <select class="form-control" id="question4">
+          <option>Select</option>
+          <option>Defense Against the Dark Arts</option>
+          <option>Herbology</option>
+          <option>Transfiguration</option>
+          <option>Potions</option>
+        </select>
+        <label for="question5">What's your patronus?</label>
+        <select class="form-control" id="question5">
+          <option>Select</option>
+          <option>Dog</option>
+          <option>Hummingbird</option>
+          <option>Stag</option>
+          <option>Serpent</option>
+        </select>
+        <br>
+        <button type="submit" class="btn">Sort Me!</button>
+      </form>
+      </div>
+      <br>
+      <br>
+      <div class="container" id="answer">
+        <div id="ravenclaw">
+          <h1>Welcome to Ravenclaw!</h1>
+          <img src="img/ravenclaw.png">
+          <p>Ravenclaw is one of the four Houses of Hogwarts School of Witchcraft and Wizardry, founded by Rowena Ravenclaw. Members of this house are characterised by their wit, learning, and wisdom. Its house colours are blue and bronze, and its symbol is an eagle.</p>
+        </div>
+        <div id="gryffindor">
+          <h1>It's going to be Gryffindor!</h1>
+          <img src="img/gryffindor.png">
+          <p>Gryffindor is one of the four Houses of Hogwarts School of Witchcraft and Wizardry, founded by Godric Gryffindor. Godric instructed the sorting hat to choose a few particular characteristics he most values. Such character traits of students Sorted into Gryffindor are courage, chivalry, and determination.</p>
+        </div>
+        <div id="hufflepuff">
+          <h1>You are a Hufflepuff!</h1>
+          <img src="img/hufflepuff.png">
+          <p>Hufflepuff is one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its founder was the medieval witch Helga Hufflepuff. Hufflepuff is the most inclusive among the four houses; valuing hard work, dedication, patience, loyalty, and fair play rather than a particular aptitude in its members.</p>
+        </div>
+        <div id="slytherin">
+          <h1>Congratulations, welcome to Slytherin!</h1>
+          <img src="img/slytherin.png">
+          <p>Slytherin is one of the four Houses at Hogwarts School of Witchcraft and Wizardry, founded by Salazar Slytherin. In establishing the house, Salazar instructed the Sorting Hat to pick students who had a few particular characteristics he most valued, including cunning, resourcefulness and ambition.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

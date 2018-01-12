@@ -1,0 +1,40 @@
+button {
+  background-color: #E37A63;
+}
+
+#gryffindor ,#hufflepuff ,#ravenclaw ,#slytherin {
+  display:none;
+}
+
+.container {
+  width:500px;
+}
+
+.btn {
+  display:block;
+  margin: 0 auto;
+  color:white;
+  background-color:#613228;
+}
+
+body {
+  background-image:url("../img/agedpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-image: url("../img/sortinghat.png");
+  color:white;
+  margin:10px;
+}
+
+#size {
+    border-radius: 20%;
+}
+
+#answer {
+  background-color: white;
+  text-align:center;
+  margin-bottom:10px;
+}
